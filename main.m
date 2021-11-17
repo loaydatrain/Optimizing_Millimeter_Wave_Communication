@@ -1,13 +1,15 @@
 %% MAIN FUNCTION FOR FIG 3
 
 function f = main(height)
+    
     p_tot = 10;
-    alpha = 0;
-    k = 10;
+    alpha = 2;
+    k = 100;
     noise_power = 0.1;
     beta = 0.9;
+    
     if(height == 6)
-        l = sqrt(36);
+        l = sqrt(136);
     elseif(height == 15)
         l = sqrt(325);
     end
@@ -17,13 +19,13 @@ function f = main(height)
 
     % APPROXIMATED VALUES
     if(height == 6)
-        a = 11.64;
-        b = 13.79;
-        c = 0.56;
+        a = 11.35;
+        b = 23.26;
+        c = 0.96;
     elseif (height == 15)
-        a = 11.64;
-        b = 21.43;
-        c = 0.56;
+        a = 11.66;
+        b = 23.62;
+        c = 0.7;
     end
     lambda = 0.1;
     [rho12, rho1_2, rho12_] = rho_calc(a, b, c, lambda);
