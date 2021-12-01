@@ -20,11 +20,11 @@ function f = main(height)
     % APPROXIMATED VALUES
     if(height == 6)
         a = 11.35;
-        b = 23.26;
+        b = 13.24;
         c = 0.96;
     elseif (height == 15)
         a = 11.66;
-        b = 23.62;
+        b = 21.24;
         c = 0.7;
     end
     lambda = 0.1;
@@ -44,5 +44,7 @@ function f = main(height)
     plot(p, f_both, 'r+', 'DisplayName', "Both");
     hold on;
     plot(p, f_total, 'k+', 'DisplayName', "Total");
+    xlabel("p")
+    ylabel("Expected Link Capacity")
     legend("show")
 end
