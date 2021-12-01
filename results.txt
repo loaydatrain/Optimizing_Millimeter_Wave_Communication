@@ -1,15 +1,19 @@
 For lambda = 0.1:   p = 0.3 ; f_total = 0.337
+For lambda = 0.3:   p = 7.2e-03 ; f_total = 2.3e-03
 For lambda = 0.5:   p = 6.6e-05 ; f_total = 1.757e-05
+For lambda = 0.7:   p = 6.6e-05 ; f_total = 1.356e-05
 
 For noise_power = 0.2%:   p = 0.3 ; f_total = 0.264
 For noise_power = 0.6%:   p = 0.25 ; f_total = 0.16
 For noise_power = 1%:   p = 0.2 ; f_total = 0.12
 For noise_power = 5%:   p = 6.6e-05 ; f_total = 0.04
 
+For alpha = 0.5:   p = 0.3 ; f_total = 0.827
 For alpha = 1:   p = 0.3 ; f_total = 0.661
 For alpha = 2:   p = 0.3 ; f_total = 0.337
 For alpha = 3:   p = 0.12 ; f_total = 0.082
 
+For beta = 0.3:   p = 0.42 ; f_total = 0.263
 For beta = 0.5:   p = 0.36 ; f_total = 0.295
 For beta = 0.8:   p = 0.31 ; f_total = 0.328
 For beta = 1:   p = 0.29 ; f_total = 0.345
