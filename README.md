@@ -22,5 +22,7 @@ In this paper, the authors consider using multiple paths and dividing the transm
   <img width="250" alt="System Diagram" src="https://user-images.githubusercontent.com/44245211/144271771-b0bb99e2-d454-4274-89fb-c193e7a47e13.png">
 </p>
 We consider a mmWave network consisting of a pair of source node and destination node, a reflector, and random obstacles. The nodes are equipped with a beam-forming antenna that can generate multi-lobe beam patterns, and know the location and shape of the reflector. There are two possible paths to communicate between nodes s and d: a directed path and a reflected path. A direct path between the two nodes is denoted as an ordered pair (s,d), and modeled as a line segment of length l(s,d).
+<br />
+<br />
 
 **PROBLEM STATEMENT: allocate power to antenna beams in order to maximise the expected capacity at node d under a power constraint**
